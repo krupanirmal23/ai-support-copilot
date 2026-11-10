@@ -14,7 +14,9 @@ short_description: RAG over Supabase Auth docs with citations and a confidence g
 
 **Author:** Krupa Nirmal · Portfolio project (product + prototype + evaluation). See also the 1-page [PRD](PRD.md).
 
-**Demo:** not hosted yet. Free CPU hosting for a 3B model now needs a paid plan, so see the screenshots below or run it locally (instructions further down).
+**Demo:** a local screen recording of the app running **Qwen2.5-3B-Instruct Q4_K_M** (the same model used in the eval below). Free CPU hosting for a 3B model now needs a paid plan, so this is a recording rather than a live Space. Full video: [demo.mp4](docs/demo.mp4).
+
+![Demo: cited answers, a low-confidence escalation, and the human-review queue](docs/demo.gif)
 
 ![Chat with citations, confidence, and escalation](docs/screenshot_chat.png)
 
