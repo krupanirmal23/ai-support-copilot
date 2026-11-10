@@ -34,6 +34,9 @@ if page == "Ask":
     st.title("AI Support Copilot")
     st.caption("Answers come only from the Supabase Auth docs, with citations. "
                "Low-confidence answers go to a human instead of the customer.")
+    st.info("This hosted demo runs **Qwen2.5-3B-Instruct Q4_K_M** on free CPU. "
+            "Answers usually take about 10–20 seconds. "
+            "The review queue is a local SQLite file and resets when the Space restarts.")
     if "history" not in st.session_state:
         st.session_state.history = []
 
@@ -79,6 +82,7 @@ if page == "Ask":
 
 else:
     st.title("Human-review queue")
+    st.caption("This queue is stored in a local SQLite file and resets when the Space restarts.")
     status = st.radio("Status", ["open", "resolved"], horizontal=True)
     items = rq.list_items(con, status)
     st.caption(f"{len(items)} {status} item(s)")

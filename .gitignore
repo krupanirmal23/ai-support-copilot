@@ -3,5 +3,5 @@ models/
 __pycache__/
 *.pyc
 data/review_queue.sqlite
-data/index*/faiss.index
+# data/index/faiss.index is shipped so the Space and fresh clones start without a rebuild.
 .streamlit/secrets.toml

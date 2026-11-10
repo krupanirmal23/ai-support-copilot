@@ -1,6 +1,20 @@
+---
+title: AI Support Copilot
+emoji: 💬
+colorFrom: blue
+colorTo: indigo
+sdk: docker
+app_port: 7860
+pinned: false
+license: mit
+short_description: RAG over Supabase Auth docs with citations and a confidence gate
+---
+
 # AI Support Copilot — RAG over Supabase Auth docs, with a confidence gate, human review, and an eval harness
 
 **Author:** Krupa Nirmal · Portfolio project (product + prototype + evaluation). See also the 1-page [PRD](PRD.md).
+
+**Live demo:** [Hugging Face Space](https://huggingface.co/spaces/knirmal23/ai-support-copilot) (direct app: [knirmal23-ai-support-copilot.hf.space](https://knirmal23-ai-support-copilot.hf.space)). It runs Qwen2.5-3B-Instruct Q4_K_M on free CPU; answers usually take about 10–20 seconds. The Space may sleep after inactivity, and the first question after a cold start is slower.
 
 ![Chat with citations, confidence, and escalation](docs/screenshot_chat.png)
 
@@ -16,7 +30,7 @@ Support teams answer the same documentation questions again and again. An LLM ca
 | `data/raw/` | 41 Supabase Auth docs pages (`.mdx`, Apache-2.0) pinned to one commit, plus a `manifest.json` |
 | `data/SOURCES.md` | License, repository commit, and source URL for every page |
 | `data/docs/` | The same pages converted to Markdown |
-| `data/index/` | Chunk metadata + stats (the FAISS file is rebuilt by `ingest`) |
+| `data/index/` | Chunk metadata, stats, and the FAISS index (rebuild with `python -m copilot.ingest`) |
 | `copilot/` | ingest → retrieve → prompt → LLM provider layer → confidence gate → review queue → eval harness |
 | `app.py` | Streamlit UI: chat, cited sources, confidence score, "Escalate to human", review-queue page |
 | `eval/questions.csv` | 50 eval questions: 30 answerable, 10 partially answerable, 10 out-of-scope |
@@ -127,6 +141,7 @@ These targets are proposed, not achieved. The thresholds live in `config.yaml`, 
 - Docs are pinned to one commit. Limits such as the default email rate change over time, and the corpus has to be re-ingested to stay current.
 
 ## 9. How to run
+A public hosted demo is on [Hugging Face Spaces](https://huggingface.co/spaces/knirmal23/ai-support-copilot). To run the same app locally:
 ```bash
 # Python 3.12
 uv venv -p 3.12 .venv && source .venv/bin/activate

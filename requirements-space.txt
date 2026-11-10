@@ -1,0 +1,9 @@
+# Hugging Face Space image. torch and llama-cpp-python are installed in the Dockerfile
+# from the official CPU / manylinux wheels so the image stays CPU-only and does not
+# compile llama.cpp. Playwright and Anthropic are eval/dev-only and are omitted here.
+sentence-transformers==6.2.0
+faiss-cpu==1.16.0
+streamlit==1.67.0
+pandas==3.1.1
+pyyaml==6.0.3
+huggingface_hub==2.4.0

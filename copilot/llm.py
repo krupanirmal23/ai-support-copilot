@@ -51,9 +51,10 @@ class LLM:
 
 def generator_from_config(cfg: dict, force_local: bool = False) -> LLM:
     g = cfg["generation"]
+    n_threads = int(os.environ.get("LLAMA_N_THREADS", g["n_threads"]))
     if os.environ.get("ANTHROPIC_API_KEY") and not force_local:
         return LLM("anthropic", g["claude_model"])
-    return LLM("local", g["local_model_name"], g["local_model_path"], g["n_ctx"], g["n_threads"])
+    return LLM("local", g["local_model_name"], g["local_model_path"], g["n_ctx"], n_threads)
 
 
 def judge_from_config(cfg: dict, force_local: bool = False) -> LLM:
