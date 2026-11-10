@@ -14,7 +14,7 @@ short_description: RAG over Supabase Auth docs with citations and a confidence g
 
 **Author:** Krupa Nirmal · Portfolio project (product + prototype + evaluation). See also the 1-page [PRD](PRD.md).
 
-**Live demo:** [Hugging Face Space](https://huggingface.co/spaces/knirmal23/ai-support-copilot) (direct app: [knirmal23-ai-support-copilot.hf.space](https://knirmal23-ai-support-copilot.hf.space)). It runs Qwen2.5-3B-Instruct Q4_K_M on free CPU; answers usually take about 10–20 seconds. The Space may sleep after inactivity, and the first question after a cold start is slower.
+**Demo:** not hosted yet. Free CPU hosting for a 3B model now needs a paid plan, so see the screenshots below or run it locally (instructions further down).
 
 ![Chat with citations, confidence, and escalation](docs/screenshot_chat.png)
 
@@ -141,7 +141,7 @@ These targets are proposed, not achieved. The thresholds live in `config.yaml`, 
 - Docs are pinned to one commit. Limits such as the default email rate change over time, and the corpus has to be re-ingested to stay current.
 
 ## 9. How to run
-A public hosted demo is on [Hugging Face Spaces](https://huggingface.co/spaces/knirmal23/ai-support-copilot). To run the same app locally:
+To run the app locally:
 ```bash
 # Python 3.12
 uv venv -p 3.12 .venv && source .venv/bin/activate
