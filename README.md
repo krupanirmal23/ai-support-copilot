@@ -31,11 +31,11 @@ flowchart LR
     U[Customer question] --> R[Retrieve top-k=4<br/>cosine similarity]
     B --> R
     R --> G[LLM provider layer<br/>Claude if ANTHROPIC_API_KEY<br/>else local Qwen2.5-3B GGUF]
-    G --> P[Parse [S#] citations<br/>→ chunk ids]
-    P --> Gate{Confidence gate<br/>score ≥ 0.70<br/>AND ≥1 valid citation<br/>AND not "I don't know"}
+    G --> P["Parse [S#] citations<br/>→ chunk ids"]
+    P --> Gate{"Confidence gate<br/>score ≥ 0.70<br/>AND ≥1 valid citation<br/>AND no I-don't-know"}
     Gate -->|pass| Show[Answer + sources +<br/>confidence shown]
     Gate -->|fail| Q[(Human-review queue<br/>SQLite)]
-    Show -->|"Escalate to human"| Q
+    Show -->|Escalate to human button| Q
     Q --> H[Review page:<br/>agent writes answer, resolves]
 ```
 
