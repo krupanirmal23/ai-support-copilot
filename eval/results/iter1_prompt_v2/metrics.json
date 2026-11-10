@@ -1,0 +1,46 @@
+{
+  "n_questions": 50,
+  "by_category_count": {
+    "answerable": 30,
+    "partially answerable": 10,
+    "out-of-scope": 10
+  },
+  "generator_model": "Qwen2.5-3B-Instruct (GGUF Q4_K_M, llama.cpp)",
+  "judge_model": "Phi-3.5-mini-instruct (GGUF Q4_K_M, llama.cpp)",
+  "pass_rate": 0.78,
+  "pass_rate_by_category": {
+    "answerable": 0.8667,
+    "out-of-scope": 0.9,
+    "partially answerable": 0.4
+  },
+  "escalation_rate": 0.26,
+  "escalation_rate_by_category": {
+    "answerable": 0.0333,
+    "out-of-scope": 0.9,
+    "partially answerable": 0.3
+  },
+  "hallucination_rate_shown": 0.027,
+  "hallucination_rate_all_drafts": 0.0909,
+  "accuracy_of_shown_answers": 0.8108,
+  "judge_label_counts_all_drafts": {
+    "correct": 33,
+    "partially correct": 5,
+    "wrong": 2,
+    "hallucinated": 4
+  },
+  "judge_label_counts_shown": {
+    "correct": 30,
+    "partially correct": 4,
+    "wrong": 2,
+    "hallucinated": 1
+  },
+  "model_idk_count": 6,
+  "citation_accuracy": 0.9722,
+  "citation_accuracy_definition": "share of in-scope answers shown to the user that cite >=1 chunk from an expected source page",
+  "invalid_citation_answers": 0,
+  "retrieval_hit_rate_at_k": 1.0,
+  "top_k": 4,
+  "median_latency_s": 11.7,
+  "p90_latency_s": 15.67,
+  "cost_per_100_queries_usd": 0.0
+}

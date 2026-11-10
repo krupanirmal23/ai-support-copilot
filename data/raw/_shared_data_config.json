@@ -1,0 +1,115 @@
+{
+ "auth": {
+  "rate_limits": {
+   "email": {
+    "inbuilt_smtp_per_hour": {
+     "value": 2
+    }
+   },
+   "magic_link": {
+    "period": {
+     "value": 60,
+     "unit": "seconds"
+    },
+    "validity": {
+     "value": 1,
+     "unit": "hour"
+    }
+   },
+   "otp": {
+    "period": {
+     "value": 60,
+     "unit": "seconds"
+    },
+    "validity": {
+     "value": 1,
+     "unit": "hour"
+    }
+   },
+   "sms": {
+    "requests_per_hour": {
+     "value": 30
+    }
+   },
+   "sign_in_sign_ups": {
+    "requests_per_five_minutes": {
+     "value": 30
+    },
+    "requests_burst": {
+     "value": 30
+    }
+   },
+   "signup_confirmation": {
+    "period": {
+     "value": 60,
+     "unit": "seconds"
+    }
+   },
+   "password_reset": {
+    "period": {
+     "value": 60,
+     "unit": "seconds"
+    }
+   },
+   "verification": {
+    "requests_per_five_minutes": {
+     "value": 30
+    },
+    "requests_burst": {
+     "value": 30
+    }
+   },
+   "token_refresh": {
+    "requests_per_five_minutes": {
+     "value": 150
+    },
+    "requests_burst": {
+     "value": 30
+    }
+   },
+   "mfa": {
+    "requests_per_minute": {
+     "value": 15
+    },
+    "requests_burst": {
+     "value": 30
+    }
+   },
+   "web3": {
+    "requests_per_five_minutes": {
+     "value": 30
+    },
+    "requests_burst": {
+     "value": 30
+    }
+   },
+   "anonymous_signin": {
+    "requests_per_hour": {
+     "value": 30
+    },
+    "requests_burst": {
+     "value": 30
+    }
+   }
+  },
+  "hook_timeouts": {
+   "postgres_hooks": {
+    "value": 2
+   },
+   "http_hooks": {
+    "value": 5
+   }
+  }
+ },
+ "branching": {
+  "inactivity_period_in_minutes": {
+   "value": 5
+  }
+ },
+ "pausing": {
+  "free_tier": {
+   "value": "1",
+   "unit": "week"
+  }
+ }
+}

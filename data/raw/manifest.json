@@ -1,0 +1,254 @@
+{
+  "repo": "https://github.com/supabase/supabase",
+  "commit": "c8aad267cb8a7f6d87525ec913a9011e4ac60f4f",
+  "commit_date": "2026-11-10T11:12:55-06:00",
+  "license": "Apache-2.0",
+  "pages": [
+    {
+      "file": "auth/architecture.mdx",
+      "source_url": "https://github.com/supabase/supabase/blob/c8aad267cb8a7f6d87525ec913a9011e4ac60f4f/apps/docs/content/guides/auth/architecture.mdx",
+      "docs_url": "https://supabase.com/docs/guides/auth/architecture",
+      "title": "Auth architecture"
+    },
+    {
+      "file": "auth/audit-logs.mdx",
+      "source_url": "https://github.com/supabase/supabase/blob/c8aad267cb8a7f6d87525ec913a9011e4ac60f4f/apps/docs/content/guides/auth/audit-logs.mdx",
+      "docs_url": "https://supabase.com/docs/guides/auth/audit-logs",
+      "title": "Auth Audit Logs"
+    },
+    {
+      "file": "auth/auth-anonymous.mdx",
+      "source_url": "https://github.com/supabase/supabase/blob/c8aad267cb8a7f6d87525ec913a9011e4ac60f4f/apps/docs/content/guides/auth/auth-anonymous.mdx",
+      "docs_url": "https://supabase.com/docs/guides/auth/auth-anonymous",
+      "title": "Anonymous Sign-Ins"
+    },
+    {
+      "file": "auth/auth-captcha.mdx",
+      "source_url": "https://github.com/supabase/supabase/blob/c8aad267cb8a7f6d87525ec913a9011e4ac60f4f/apps/docs/content/guides/auth/auth-captcha.mdx",
+      "docs_url": "https://supabase.com/docs/guides/auth/auth-captcha",
+      "title": "Enable CAPTCHA Protection"
+    },
+    {
+      "file": "auth/auth-email-passwordless.mdx",
+      "source_url": "https://github.com/supabase/supabase/blob/c8aad267cb8a7f6d87525ec913a9011e4ac60f4f/apps/docs/content/guides/auth/auth-email-passwordless.mdx",
+      "docs_url": "https://supabase.com/docs/guides/auth/auth-email-passwordless",
+      "title": "Passwordless email sign-in"
+    },
+    {
+      "file": "auth/auth-email-templates.mdx",
+      "source_url": "https://github.com/supabase/supabase/blob/c8aad267cb8a7f6d87525ec913a9011e4ac60f4f/apps/docs/content/guides/auth/auth-email-templates.mdx",
+      "docs_url": "https://supabase.com/docs/guides/auth/auth-email-templates",
+      "title": "Email Templates"
+    },
+    {
+      "file": "auth/auth-hooks/custom-access-token-hook.mdx",
+      "source_url": "https://github.com/supabase/supabase/blob/c8aad267cb8a7f6d87525ec913a9011e4ac60f4f/apps/docs/content/guides/auth/auth-hooks/custom-access-token-hook.mdx",
+      "docs_url": "https://supabase.com/docs/guides/auth/auth-hooks/custom-access-token-hook",
+      "title": "Custom Access Token Hook"
+    },
+    {
+      "file": "auth/auth-hooks.mdx",
+      "source_url": "https://github.com/supabase/supabase/blob/c8aad267cb8a7f6d87525ec913a9011e4ac60f4f/apps/docs/content/guides/auth/auth-hooks.mdx",
+      "docs_url": "https://supabase.com/docs/guides/auth/auth-hooks",
+      "title": "Auth Hooks"
+    },
+    {
+      "file": "auth/auth-identity-linking.mdx",
+      "source_url": "https://github.com/supabase/supabase/blob/c8aad267cb8a7f6d87525ec913a9011e4ac60f4f/apps/docs/content/guides/auth/auth-identity-linking.mdx",
+      "docs_url": "https://supabase.com/docs/guides/auth/auth-identity-linking",
+      "title": "Identity Linking"
+    },
+    {
+      "file": "auth/auth-mfa/phone.mdx",
+      "source_url": "https://github.com/supabase/supabase/blob/c8aad267cb8a7f6d87525ec913a9011e4ac60f4f/apps/docs/content/guides/auth/auth-mfa/phone.mdx",
+      "docs_url": "https://supabase.com/docs/guides/auth/auth-mfa/phone",
+      "title": "Multi-Factor Authentication (Phone)"
+    },
+    {
+      "file": "auth/auth-mfa/totp.mdx",
+      "source_url": "https://github.com/supabase/supabase/blob/c8aad267cb8a7f6d87525ec913a9011e4ac60f4f/apps/docs/content/guides/auth/auth-mfa/totp.mdx",
+      "docs_url": "https://supabase.com/docs/guides/auth/auth-mfa/totp",
+      "title": "Multi-Factor Authentication (TOTP)"
+    },
+    {
+      "file": "auth/auth-mfa.mdx",
+      "source_url": "https://github.com/supabase/supabase/blob/c8aad267cb8a7f6d87525ec913a9011e4ac60f4f/apps/docs/content/guides/auth/auth-mfa.mdx",
+      "docs_url": "https://supabase.com/docs/guides/auth/auth-mfa",
+      "title": "Supabase Auth multi-factor authentication"
+    },
+    {
+      "file": "auth/auth-smtp.mdx",
+      "source_url": "https://github.com/supabase/supabase/blob/c8aad267cb8a7f6d87525ec913a9011e4ac60f4f/apps/docs/content/guides/auth/auth-smtp.mdx",
+      "docs_url": "https://supabase.com/docs/guides/auth/auth-smtp",
+      "title": "Send emails with custom SMTP"
+    },
+    {
+      "file": "auth/auth-web3.mdx",
+      "source_url": "https://github.com/supabase/supabase/blob/c8aad267cb8a7f6d87525ec913a9011e4ac60f4f/apps/docs/content/guides/auth/auth-web3.mdx",
+      "docs_url": "https://supabase.com/docs/guides/auth/auth-web3",
+      "title": "Sign in with Web3"
+    },
+    {
+      "file": "auth/choosing-a-server-package.mdx",
+      "source_url": "https://github.com/supabase/supabase/blob/c8aad267cb8a7f6d87525ec913a9011e4ac60f4f/apps/docs/content/guides/auth/choosing-a-server-package.mdx",
+      "docs_url": "https://supabase.com/docs/guides/auth/choosing-a-server-package",
+      "title": "Which package to use"
+    },
+    {
+      "file": "auth/custom-oauth-providers.mdx",
+      "source_url": "https://github.com/supabase/supabase/blob/c8aad267cb8a7f6d87525ec913a9011e4ac60f4f/apps/docs/content/guides/auth/custom-oauth-providers.mdx",
+      "docs_url": "https://supabase.com/docs/guides/auth/custom-oauth-providers",
+      "title": "Custom OAuth/OIDC Providers"
+    },
+    {
+      "file": "auth/debugging/error-codes.mdx",
+      "source_url": "https://github.com/supabase/supabase/blob/c8aad267cb8a7f6d87525ec913a9011e4ac60f4f/apps/docs/content/guides/auth/debugging/error-codes.mdx",
+      "docs_url": "https://supabase.com/docs/guides/auth/debugging/error-codes",
+      "title": "Auth error codes"
+    },
+    {
+      "file": "auth/enterprise-sso/auth-sso-saml.mdx",
+      "source_url": "https://github.com/supabase/supabase/blob/c8aad267cb8a7f6d87525ec913a9011e4ac60f4f/apps/docs/content/guides/auth/enterprise-sso/auth-sso-saml.mdx",
+      "docs_url": "https://supabase.com/docs/guides/auth/enterprise-sso/auth-sso-saml",
+      "title": "Single Sign-On with SAML 2.0 for Projects"
+    },
+    {
+      "file": "auth/general-configuration.mdx",
+      "source_url": "https://github.com/supabase/supabase/blob/c8aad267cb8a7f6d87525ec913a9011e4ac60f4f/apps/docs/content/guides/auth/general-configuration.mdx",
+      "docs_url": "https://supabase.com/docs/guides/auth/general-configuration",
+      "title": "General configuration"
+    },
+    {
+      "file": "auth/identities.mdx",
+      "source_url": "https://github.com/supabase/supabase/blob/c8aad267cb8a7f6d87525ec913a9011e4ac60f4f/apps/docs/content/guides/auth/identities.mdx",
+      "docs_url": "https://supabase.com/docs/guides/auth/identities",
+      "title": "Identities"
+    },
+    {
+      "file": "auth/jwt-fields.mdx",
+      "source_url": "https://github.com/supabase/supabase/blob/c8aad267cb8a7f6d87525ec913a9011e4ac60f4f/apps/docs/content/guides/auth/jwt-fields.mdx",
+      "docs_url": "https://supabase.com/docs/guides/auth/jwt-fields",
+      "title": "JWT Claims Reference"
+    },
+    {
+      "file": "auth/jwts.mdx",
+      "source_url": "https://github.com/supabase/supabase/blob/c8aad267cb8a7f6d87525ec913a9011e4ac60f4f/apps/docs/content/guides/auth/jwts.mdx",
+      "docs_url": "https://supabase.com/docs/guides/auth/jwts",
+      "title": "JSON Web Token (JWT)"
+    },
+    {
+      "file": "auth/managing-user-data.mdx",
+      "source_url": "https://github.com/supabase/supabase/blob/c8aad267cb8a7f6d87525ec913a9011e4ac60f4f/apps/docs/content/guides/auth/managing-user-data.mdx",
+      "docs_url": "https://supabase.com/docs/guides/auth/managing-user-data",
+      "title": "User Management"
+    },
+    {
+      "file": "auth/native-mobile-deep-linking.mdx",
+      "source_url": "https://github.com/supabase/supabase/blob/c8aad267cb8a7f6d87525ec913a9011e4ac60f4f/apps/docs/content/guides/auth/native-mobile-deep-linking.mdx",
+      "docs_url": "https://supabase.com/docs/guides/auth/native-mobile-deep-linking",
+      "title": "Native Mobile Deep Linking"
+    },
+    {
+      "file": "auth/oauth-server.mdx",
+      "source_url": "https://github.com/supabase/supabase/blob/c8aad267cb8a7f6d87525ec913a9011e4ac60f4f/apps/docs/content/guides/auth/oauth-server.mdx",
+      "docs_url": "https://supabase.com/docs/guides/auth/oauth-server",
+      "title": "OAuth 2.1 Server"
+    },
+    {
+      "file": "auth/passkeys.mdx",
+      "source_url": "https://github.com/supabase/supabase/blob/c8aad267cb8a7f6d87525ec913a9011e4ac60f4f/apps/docs/content/guides/auth/passkeys.mdx",
+      "docs_url": "https://supabase.com/docs/guides/auth/passkeys",
+      "title": "Passkey authentication"
+    },
+    {
+      "file": "auth/password-security.mdx",
+      "source_url": "https://github.com/supabase/supabase/blob/c8aad267cb8a7f6d87525ec913a9011e4ac60f4f/apps/docs/content/guides/auth/password-security.mdx",
+      "docs_url": "https://supabase.com/docs/guides/auth/password-security",
+      "title": "Password security"
+    },
+    {
+      "file": "auth/passwords.mdx",
+      "source_url": "https://github.com/supabase/supabase/blob/c8aad267cb8a7f6d87525ec913a9011e4ac60f4f/apps/docs/content/guides/auth/passwords.mdx",
+      "docs_url": "https://supabase.com/docs/guides/auth/passwords",
+      "title": "Password-based Auth"
+    },
+    {
+      "file": "auth/phone-login.mdx",
+      "source_url": "https://github.com/supabase/supabase/blob/c8aad267cb8a7f6d87525ec913a9011e4ac60f4f/apps/docs/content/guides/auth/phone-login.mdx",
+      "docs_url": "https://supabase.com/docs/guides/auth/phone-login",
+      "title": "Phone sign-in"
+    },
+    {
+      "file": "auth/rate-limits.mdx",
+      "source_url": "https://github.com/supabase/supabase/blob/c8aad267cb8a7f6d87525ec913a9011e4ac60f4f/apps/docs/content/guides/auth/rate-limits.mdx",
+      "docs_url": "https://supabase.com/docs/guides/auth/rate-limits",
+      "title": "Rate limits"
+    },
+    {
+      "file": "auth/redirect-urls.mdx",
+      "source_url": "https://github.com/supabase/supabase/blob/c8aad267cb8a7f6d87525ec913a9011e4ac60f4f/apps/docs/content/guides/auth/redirect-urls.mdx",
+      "docs_url": "https://supabase.com/docs/guides/auth/redirect-urls",
+      "title": "Redirect URLs"
+    },
+    {
+      "file": "auth/server-side/advanced-guide.mdx",
+      "source_url": "https://github.com/supabase/supabase/blob/c8aad267cb8a7f6d87525ec913a9011e4ac60f4f/apps/docs/content/guides/auth/server-side/advanced-guide.mdx",
+      "docs_url": "https://supabase.com/docs/guides/auth/server-side/advanced-guide",
+      "title": "Advanced guide"
+    },
+    {
+      "file": "auth/server-side.mdx",
+      "source_url": "https://github.com/supabase/supabase/blob/c8aad267cb8a7f6d87525ec913a9011e4ac60f4f/apps/docs/content/guides/auth/server-side.mdx",
+      "docs_url": "https://supabase.com/docs/guides/auth/server-side",
+      "title": "Server-Side Rendering"
+    },
+    {
+      "file": "auth/sessions/implicit-flow.mdx",
+      "source_url": "https://github.com/supabase/supabase/blob/c8aad267cb8a7f6d87525ec913a9011e4ac60f4f/apps/docs/content/guides/auth/sessions/implicit-flow.mdx",
+      "docs_url": "https://supabase.com/docs/guides/auth/sessions/implicit-flow",
+      "title": "Implicit flow"
+    },
+    {
+      "file": "auth/sessions/pkce-flow.mdx",
+      "source_url": "https://github.com/supabase/supabase/blob/c8aad267cb8a7f6d87525ec913a9011e4ac60f4f/apps/docs/content/guides/auth/sessions/pkce-flow.mdx",
+      "docs_url": "https://supabase.com/docs/guides/auth/sessions/pkce-flow",
+      "title": "PKCE flow"
+    },
+    {
+      "file": "auth/sessions.mdx",
+      "source_url": "https://github.com/supabase/supabase/blob/c8aad267cb8a7f6d87525ec913a9011e4ac60f4f/apps/docs/content/guides/auth/sessions.mdx",
+      "docs_url": "https://supabase.com/docs/guides/auth/sessions",
+      "title": "User sessions"
+    },
+    {
+      "file": "auth/signing-keys.mdx",
+      "source_url": "https://github.com/supabase/supabase/blob/c8aad267cb8a7f6d87525ec913a9011e4ac60f4f/apps/docs/content/guides/auth/signing-keys.mdx",
+      "docs_url": "https://supabase.com/docs/guides/auth/signing-keys",
+      "title": "JWT Signing Keys"
+    },
+    {
+      "file": "auth/signout.mdx",
+      "source_url": "https://github.com/supabase/supabase/blob/c8aad267cb8a7f6d87525ec913a9011e4ac60f4f/apps/docs/content/guides/auth/signout.mdx",
+      "docs_url": "https://supabase.com/docs/guides/auth/signout",
+      "title": "Signing out"
+    },
+    {
+      "file": "auth/social-sign-in.mdx",
+      "source_url": "https://github.com/supabase/supabase/blob/c8aad267cb8a7f6d87525ec913a9011e4ac60f4f/apps/docs/content/guides/auth/social-sign-in.mdx",
+      "docs_url": "https://supabase.com/docs/guides/auth/social-sign-in",
+      "title": "Social sign-in"
+    },
+    {
+      "file": "auth/testing-auth-flows.mdx",
+      "source_url": "https://github.com/supabase/supabase/blob/c8aad267cb8a7f6d87525ec913a9011e4ac60f4f/apps/docs/content/guides/auth/testing-auth-flows.mdx",
+      "docs_url": "https://supabase.com/docs/guides/auth/testing-auth-flows",
+      "title": "Test auth flows"
+    },
+    {
+      "file": "auth/users.mdx",
+      "source_url": "https://github.com/supabase/supabase/blob/c8aad267cb8a7f6d87525ec913a9011e4ac60f4f/apps/docs/content/guides/auth/users.mdx",
+      "docs_url": "https://supabase.com/docs/guides/auth/users",
+      "title": "Users"
+    }
+  ]
+}

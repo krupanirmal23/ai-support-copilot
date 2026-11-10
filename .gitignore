@@ -1,0 +1,7 @@
+.venv/
+models/
+__pycache__/
+*.pyc
+data/review_queue.sqlite
+data/index*/faiss.index
+.streamlit/secrets.toml

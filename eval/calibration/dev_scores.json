@@ -1,0 +1,97 @@
+{
+  "embedding_model": "BAAI/bge-small-en-v1.5",
+  "in_scope": [
+    {
+      "question": "How do I send a password reset email?",
+      "top1_score": 0.7503,
+      "top1_chunk": "auth/passwords#12"
+    },
+    {
+      "question": "How do I enable sign in with GitHub?",
+      "top1_score": 0.7055,
+      "top1_chunk": "auth/auth-email-passwordless#7"
+    },
+    {
+      "question": "What claims are always present in a Supabase JWT?",
+      "top1_score": 0.8831,
+      "top1_chunk": "auth/jwt-fields#2"
+    },
+    {
+      "question": "How do I link a Google identity to an existing user?",
+      "top1_score": 0.8168,
+      "top1_chunk": "auth/auth-identity-linking#0"
+    },
+    {
+      "question": "How do I verify a phone OTP?",
+      "top1_score": 0.8431,
+      "top1_chunk": "auth/phone-login#3"
+    },
+    {
+      "question": "How do I customise the confirmation email template?",
+      "top1_score": 0.8033,
+      "top1_chunk": "auth/auth-email-templates#10"
+    },
+    {
+      "question": "How do I set up passkeys?",
+      "top1_score": 0.7771,
+      "top1_chunk": "auth/passkeys#2"
+    },
+    {
+      "question": "What is the auth schema used for?",
+      "top1_score": 0.7738,
+      "top1_chunk": "auth/architecture#3"
+    }
+  ],
+  "out_of_scope": [
+    {
+      "question": "How do I set up Stripe billing webhooks?",
+      "top1_score": 0.6253,
+      "top1_chunk": "auth/auth-hooks#4"
+    },
+    {
+      "question": "How do I create a cron job in Postgres?",
+      "top1_score": 0.7071,
+      "top1_chunk": "auth/auth-hooks#3"
+    },
+    {
+      "question": "How do I upgrade my compute size?",
+      "top1_score": 0.5657,
+      "top1_chunk": "auth/password-security#7"
+    },
+    {
+      "question": "How do I write a database function in PL/pgSQL?",
+      "top1_score": 0.6899,
+      "top1_chunk": "auth/managing-user-data#2"
+    },
+    {
+      "question": "How do I use Supabase with LangChain?",
+      "top1_score": 0.7788,
+      "top1_chunk": "auth/choosing-a-server-package#3"
+    },
+    {
+      "question": "How do I change my organization's billing email?",
+      "top1_score": 0.7395,
+      "top1_chunk": "auth/auth-email-templates#11"
+    },
+    {
+      "question": "What regions can I host my project in?",
+      "top1_score": 0.6384,
+      "top1_chunk": "auth/auth-email-templates#6"
+    },
+    {
+      "question": "How do I bulk import CSV data into a table?",
+      "top1_score": 0.597,
+      "top1_chunk": "auth/managing-user-data#6"
+    }
+  ],
+  "in_scope_summary": {
+    "min": 0.7055,
+    "median": 0.7902,
+    "max": 0.8831
+  },
+  "out_of_scope_summary": {
+    "min": 0.5657,
+    "median": 0.66415,
+    "max": 0.7788
+  }
+}

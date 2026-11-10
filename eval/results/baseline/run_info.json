@@ -1,0 +1,20 @@
+{
+  "run_name": "baseline",
+  "started_at": "2026-11-10 20:05:29 UTC",
+  "generation_seconds": 588.7,
+  "judge_seconds": 197.9,
+  "generator_model": "Qwen2.5-3B-Instruct (GGUF Q4_K_M, llama.cpp)",
+  "judge_model": "Phi-3.5-mini-instruct (GGUF Q4_K_M, llama.cpp)",
+  "embedding_model": "BAAI/bge-small-en-v1.5",
+  "overrides": {},
+  "anthropic_key_present": false,
+  "machine": {
+    "platform": "Linux-6.12.113+-x86_64-with-glibc2.41",
+    "cpu_count": 8,
+    "python": "3.12.16"
+  },
+  "versions": {
+    "llama_cpp_python": "0.3.36",
+    "sentence_transformers": "6.2.0"
+  }
+}

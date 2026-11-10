@@ -1,0 +1,45 @@
+# AI Support Copilot - single source of configuration.
+# Every eval run snapshots this file into its results folder.
+
+corpus:
+  raw_dir: data/raw          # original .mdx files (Apache-2.0, supabase/supabase)
+  docs_dir: data/docs        # cleaned Markdown
+  index_dir: data/index      # FAISS index + chunk metadata
+
+chunking:
+  chunk_tokens: 500          # measured with the embedding model's tokenizer
+  overlap_tokens: 80
+
+embedding:
+  model: BAAI/bge-small-en-v1.5
+  query_prefix: "Represent this sentence for searching relevant passages: "
+
+retrieval:
+  top_k: 4
+
+generation:
+  prompt_version: v2         # v1 = baseline run, v2 = after iteration (see eval/results/comparison.md)
+  max_tokens: 350
+  temperature: 0.0
+  local_model_path: models/qwen2.5-3b-instruct-q4_k_m.gguf
+  local_model_name: Qwen2.5-3B-Instruct (GGUF Q4_K_M, llama.cpp)
+  claude_model: claude-sonnet-4-5    # used only when ANTHROPIC_API_KEY is set
+  n_ctx: 4096
+  n_threads: 8
+
+gate:
+  # Answers are shown to the user only if ALL of these hold; otherwise -> review queue.
+  min_retrieval_score: 0.70  # set from eval/calibration/dev_scores.json (8 in-scope + 8 out-of-scope DEV queries, not in the eval set)
+  require_citation: true     # answer must cite at least one retrieved chunk id
+  escalate_on_idk: true      # model said it doesn't know
+
+judge:
+  local_model_path: models/Phi-3.5-mini-instruct-Q4_K_M.gguf
+  local_model_name: Phi-3.5-mini-instruct (GGUF Q4_K_M, llama.cpp)
+  claude_model: claude-sonnet-4-5
+
+pricing_usd_per_mtok:        # used only to cost Claude runs; local runs cost 0
+  claude-sonnet-4-5: {input: 3.0, output: 15.0}
+
+review_queue:
+  db_path: data/review_queue.sqlite
